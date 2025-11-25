@@ -1,0 +1,23 @@
+O Spring Boot é uma das ferramentas mais populares no ecossistema Java moderno, projetado para simplificar drasticamente o processo de configuração e desenvolvimento de novas aplicações baseadas no framework Spring.
+
+O que é Spring Boot Framework?
+Spring Boot é uma extensão do framework Spring que elimina grande parte da configuração manual e repetitiva. Em essência, ele permite que você crie aplicações Spring autossuficientes, com o mínimo de esforço. O objetivo principal é tornar o desenvolvimento de aplicações Spring mais rápido e eficiente, seguindo a filosofia de "convenção sobre configuração".
+
+Benefícios e Recursos do Spring Boot
+Os principais recursos e benefícios do Spring Boot incluem:
+Configuração Automática (Auto-configuration): Analisa as dependências presentes no seu projeto e configura automaticamente o framework Spring para você. Se você adiciona a dependência web, ele configura automaticamente um servidor web embarcado.
+Servidores Embarcados: Inclui servidores como Tomcat, Jetty ou Undertow diretamente no pacote final da aplicação (JAR), permitindo que a aplicação seja executada com um simples java -jar, sem a necessidade de instalar um servidor de aplicação externo.
+"Starter Dependencies": Um conjunto de gerenciadores de dependências Maven ou Gradle que agrupam bibliotecas comuns necessárias para um tipo específico de desenvolvimento (como web, dados ou segurança), reduzindo o número de dependências que você precisa gerenciar manualmente.
+Métricas e Monitoramento (Actuator): Fornece endpoints HTTP prontos para uso que permitem monitorar e gerenciar a aplicação em produção, verificando saúde, métricas e configurações internas.
+
+Como é feita a adição de novas dependências (JPA, Hibernate, etc…)?
+A adição de dependências no Spring Boot é facilitada pelos "Starter POMs". Em vez de adicionar bibliotecas individuais (como spring-core, hibernate-core, jpa-api, etc.), você adiciona apenas um "starter" no arquivo de configuração do Maven (pom.xml).
+Este starter automaticamente puxa todas as bibliotecas necessárias e configura o ambiente para você.
+
+O que é Spring Initializr?
+Spring Initializr é uma ferramenta web essencial para desenvolvedores. É um gerador de projetos interativo que oferece uma interface simples para criar a estrutura básica de um projeto Spring Boot.
+Acessando o site start.spring.io, você pode escolher a linguagem, o sistema de build, a versão do Spring Boot e selecionar visualmente todos os starters (dependências) que sua aplicação precisará. A ferramenta então gera e faz o download de um arquivo ZIP contendo um projeto pronto para ser importado na sua IDE.
+
+Qual é a melhor IDE para trabalhar com o Spring Boot?
+Na minha opinião, a melhor IDE para trabalhar com o Spring Boot é o IntelliJ IDEA.
+O IntelliJ oferece um suporte nativo e profundo para o ecossistema Spring e Java. Ele fornece recursos como: navegação contextual entre controladores e métodos REST, reconhecimento automático de configurações do Actuator, sugestões inteligentes para propriedades de configuração (application.properties ou .yml) e ferramentas visuais integradas para o Spring Initializr. Isso resulta em uma experiência de desenvolvimento superior e mais produtiva.
