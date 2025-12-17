@@ -1,17 +1,19 @@
 package com.example.jpa_h2_demo.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import jakarta.persistence.*;
 
 @Entity
+@JsonPropertyOrder({ "id", "numero", "ddd" })
 public class Telefone {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String DDD;
     private String numero;
+    private String ddd;
 
     @JsonBackReference
     @ManyToOne
@@ -26,12 +28,12 @@ public class Telefone {
         this.id = id;
     }
 
-    public String getDDD() {
-        return DDD;
+    public String getDdd() {
+        return ddd;
     }
 
-    public void setDDD(String DDD) {
-        this.DDD = DDD;
+    public void setDdd(String ddd) {
+        this.ddd = ddd;
     }
 
     public String getNumero() {
