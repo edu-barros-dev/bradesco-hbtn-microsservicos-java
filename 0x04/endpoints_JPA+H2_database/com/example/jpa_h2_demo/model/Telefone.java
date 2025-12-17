@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import jakarta.persistence.*;
 
 @Entity
-@JsonPropertyOrder({ "id", "numero", "ddd" })
+@JsonPropertyOrder({ "id", "ddd", "numero" })
 public class Telefone {
 
     @Id

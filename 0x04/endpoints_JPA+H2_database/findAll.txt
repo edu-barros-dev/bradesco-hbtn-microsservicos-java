@@ -7,8 +7,8 @@
         "telefones": [
             {
                 "id": 3,
-                "numero": "98253636",
-                "ddd": "18"
+                "ddd": "18",
+                "numero": "98253636"
             }
         ],
         "enderecos": [
@@ -31,13 +31,13 @@
         "telefones": [
             {
                 "id": 1,
-                "numero": "35445585",
-                "ddd": "14"
+                "ddd": "14",
+                "numero": "35445585"
             },
             {
                 "id": 2,
-                "numero": "99668855",
-                "ddd": "14"
+                "ddd": "14",
+                "numero": "99668855"
             }
         ],
         "enderecos": [
