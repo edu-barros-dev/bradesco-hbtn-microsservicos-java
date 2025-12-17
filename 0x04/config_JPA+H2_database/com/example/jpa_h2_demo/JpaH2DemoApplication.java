@@ -1,4 +1,4 @@
-package com.techCamps.demo;
+package com.example.jpa_h2_demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
