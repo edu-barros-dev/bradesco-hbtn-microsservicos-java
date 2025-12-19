@@ -1,4 +1,4 @@
-package src.test.java.com.example.calculator.contoller;
+package src.test.java.com.example.calculator.controller;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
