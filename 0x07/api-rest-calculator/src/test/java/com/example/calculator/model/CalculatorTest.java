@@ -1,6 +1,7 @@
-package src.main.java.com.example.calculator.model;
+package src.test.java.com.example.calculator.model;
 
 import org.testng.annotations.Test;
+import src.main.java.com.example.calculator.model.Calculator;
 
 import static org.testng.Assert.assertThrows;
 import static org.testng.AssertJUnit.assertEquals;
